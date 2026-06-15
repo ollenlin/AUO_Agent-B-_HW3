@@ -19,7 +19,7 @@ try {
     spin.stop();
 
     for (const [i, r] of results.entries()) {
-      console.log(`\n${i + 1}. ${r.title} (${r.type}, ${r.release_year})`);
+      console.log(`\n${i + 1}. ${r.title} (${r.type}, ${r.famous_shop})`);
       console.log(`   分數：${r.score.toFixed(3)}`);
       console.log(`   城市：${r.city}`);
       console.log(`   描述：${r.description}`);
